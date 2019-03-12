@@ -1,5 +1,5 @@
 <%@ Page Title="" Language="C#" MasterPageFile="AspectBoutique.Master" AutoEventWireup="true"
-CodeBehind="Default.aspx.cs" Inherits="WebApplication1.PresentationLayer.Default" %>
+CodeBehind="Default.aspx.cs" Inherits="webshop_2019.webforms.Default" %>
 
 <asp:Content ContentPlaceHolderID="CPHContenu" runat="server">
     <h1>La cabane d'Honolulu</h1>

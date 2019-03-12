@@ -1,14 +1,14 @@
-﻿using BoutiqueExotique.BusinessLayer;
+﻿using webshop_2019.classesMetier;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WebApplication1.BusinessLayer;
-using WebApplication1.DBAL;
+using webshop_2019.classesMetier;
+using webshop_2019.model;
 
-namespace WebApplication1.PresentationLayer
+namespace webshop_2019.webforms
 {
     public partial class ListerAlcools : System.Web.UI.Page
     {

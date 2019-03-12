@@ -1,6 +1,6 @@
 
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AspectBoutique.Master.cs"
-Inherits="WebApplication1.webforms.AspectBoutique" %>
+Inherits="webshop_2019.webforms.AspectBoutique" %>
 
 <!DOCTYPE html>
 <html>

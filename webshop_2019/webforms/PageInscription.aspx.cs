@@ -4,12 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WebApplication1.BusinessLayer;
-using WebApplication1.DBAL;
+using webshop_2019.classesMetier;
+using webshop_2019.model;
 using System.Web.Security;
 
 
-namespace WebApplication1.PresentationLayer
+namespace webshop_2019.webforms
 {
     public partial class PageInscription : System.Web.UI.Page
     {

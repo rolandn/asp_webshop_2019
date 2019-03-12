@@ -41,18 +41,15 @@ namespace webshop_2019.model
          * methode qui fournit l'instance des classes métierDAO
          * @return
          */
-        public BouteilleDAO getInstBouteilleDAO()
+        public AlcoolDAO getInstBouteilleDAO()
         {
-            return new BouteilleDAO(Conn);
+            return new AlcoolDAO(Conn);
         }
         public ClientDAO getInstClientDAO()
         {
             return new ClientDAO(Conn);
         }
-        public ChemiseHDAO getInstChemiseHDAO()
-        {
-            return new ChemiseHDAO(Conn);
-        }
+        
         public CommandeDAO getInstCommandeDAO()
         {
             return new CommandeDAO(Conn);
@@ -69,9 +66,6 @@ namespace webshop_2019.model
         {
             return new BouteilleAListerDAO(Conn);
         }
-        public ChemiseAListerDAO getInstChemiseAListerDAO()
-        {
-            return new ChemiseAListerDAO(Conn);
-        }
+        
     }
 }
