@@ -1,0 +1,86 @@
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AspectBoutique.Master.cs"
+Inherits="webshop_2019.webforms.AspectBoutique" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title> Webshop alcool</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+</head>
+<body>
+    <div class="div-cadre">
+        <div class="div-menu">
+            <asp:ContentPlaceHolder ID="CPHMenu" runat="server">
+
+              <ul class="menu-principal">     
+                <li>
+                    <a class="menu-principal-lien" href="/webforms/Default.aspx">
+                        Accueil
+                    </a>
+                </li>          
+                <li>
+                    <a class="menu-principal-lien" href="/webforms/ListerAlcools.aspx">
+                        Nos alcools
+                    </a>
+                </li>     
+                <li>
+                    <a class="menu-principal-lien" href="/webforms/ListerChemises.aspx"> 
+                        Nos chemises
+                    </a>
+                </li>
+                              
+                     <% if(Session["user"] == null)
+                { %>
+		           <li>
+                        <a class="menu-principal-connexion-lien" href="/webforms/PageInscription.aspx">
+                            Créer un compte
+                        </a>
+                    </li>
+		        <% } %>
+                <% if(Session["user"] != null)
+                { %>
+		           <li>
+                        <a class="menu-principal-connexion-lien" href="/webforms/Panier2.aspx">
+                            Panier
+                        </a>
+                    </li>
+		        <% } %>
+                <% if(Session["user"] != null)
+                { %>
+                    <li>
+                        <a class="menu-principal-connexion-lien" href="/webforms/PageCommande.aspx">
+                            Mes commandes
+                        </a>
+                    </li>
+		        <% } %>
+                <% if(Session["user"] == null)
+                { %>
+                    <li>
+                        <a class="menu-principal-connexion-lien" href="/webforms/PageConnexion.aspx">
+                            Se connecter
+                        </a>
+                    </li>
+                <% } 
+                else 
+                { %>
+                    <li>
+                        <a class="menu-principal-connexion-lien" href="/webforms/Deconnexion.aspx">
+                            Se déconnecter
+                        </a>
+                    </li>
+                <% } %>             
+            </ul>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="div-image-intro">
+            <img class="image-ecoleexterieure"    src="/imgs/palmiers.jpg" runat="server" />
+        </div>
+        <div class="div-contenu">
+            <asp:ContentPlaceHolder ID="CPHContenu" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</body>
+</html>
+
