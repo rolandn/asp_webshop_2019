@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using webshop_2019.model;
+using WebApplication1.DBAL;
 
-namespace webshop_2019.webforms
+namespace WebApplication1.PresentationLayer
 {
     public partial class AspectBoutique : System.Web.UI.MasterPage
     {

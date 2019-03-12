@@ -11,51 +11,42 @@ namespace webshop_2019.webforms
 {
     
     
-    public partial class PageConnexion {
+    public partial class Panier2 {
         
         /// <summary>
-        /// fSeConnecter control.
+        /// fGVPanier control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm fSeConnecter;
+        protected global::System.Web.UI.HtmlControls.HtmlForm fGVPanier;
         
         /// <summary>
-        /// TBEmail control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBEmail;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// TBPassword control.
+        /// TBTotal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBPassword;
+        protected global::System.Web.UI.WebControls.TextBox TBTotal;
         
         /// <summary>
-        /// LReponse control.
+        /// BCommander control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LReponse;
-        
-        /// <summary>
-        /// BContinuer control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BContinuer;
+        protected global::System.Web.UI.WebControls.Button BCommander;
     }
 }

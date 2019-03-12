@@ -7,28 +7,28 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace webshop_2019.webforms {
+namespace webshop_2019.webforms
+{
     
     
-    public partial class AspectBoutique {
+    public partial class PageCommande {
         
         /// <summary>
-        /// CPHMenu control.
+        /// fGVCommande control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        /// 
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder CPHMenu;
+        protected global::System.Web.UI.HtmlControls.HtmlForm fGVCommande;
         
         /// <summary>
-        /// CPHContenu control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder CPHContenu;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }

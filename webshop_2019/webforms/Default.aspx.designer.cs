@@ -7,7 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace webshop_2019.webforms {
+namespace webshop_2019.webforms
+{
     
     
     public partial class Default {

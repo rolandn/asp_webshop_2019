@@ -1,11 +1,11 @@
 
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AspectBoutique.Master.cs"
-Inherits="webshop_2019.webforms.AspectBoutique" %>
+Inherits="WebApplication1.webforms.AspectBoutique" %>
 
 <!DOCTYPE html>
 <html>
 <head runat="server">
-    <title> Webshop alcool</title>
+    <title> Boutique de boissons</title>
     <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
 </head>
 <body>
@@ -82,5 +82,6 @@ Inherits="webshop_2019.webforms.AspectBoutique" %>
         </div>
     </div>
 </body>
+
 </html>
 

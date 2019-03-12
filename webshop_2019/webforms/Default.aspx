@@ -1,8 +1,8 @@
 <%@ Page Title="" Language="C#" MasterPageFile="AspectBoutique.Master" AutoEventWireup="true"
-CodeBehind="Default.aspx.cs" Inherits="webshop_2019.webforms.Default" %>
+CodeBehind="Default.aspx.cs" Inherits="WebApplication1.PresentationLayer.Default" %>
 
 <asp:Content ContentPlaceHolderID="CPHContenu" runat="server">
-    <h1>LE webshop pour la gnaule !</h1>
+    <h1>La cabane d'Honolulu</h1>
     <p>
     L'Ecole Fantastique, ou plus familièrement l'EF, est une institution déjà très ancienne qui
     a toujours pu offrir à ses élèves différentes <b>formations de très hautes qualités</b> (les
